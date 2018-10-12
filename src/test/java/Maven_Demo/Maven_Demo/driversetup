@@ -33,7 +33,6 @@ public class DriverSetup
   static Properties properties = null;
   public static AppiumDriver<WebElement> appiumdriver = null;
   public static WebDriver driver = null;
-  public String driverPath = ".\\src\\main\\resources\\com\\ibm\\stax\\Drivers\\";
   public String TC_ID = null;
   public String appURL = null;
   WindowsProcess w = new WindowsProcess();
@@ -598,18 +597,7 @@ public class DriverSetup
     return value;
   }
   
-  public void VideoRecorderStart()
-  {
-    try
-    {
-      this.recorder = new ATUTestRecorder(".\\src\\main\\resources\\com/ibm/stax/Results/VideoEvidence/", this.TC_ID, Boolean.valueOf(false));
-      this.recorder.start();
-    }
-    catch (ATUTestRecorderException e)
-    {
-      e.printStackTrace();
-    }
-  }
+  
   
   public void VideoRecordingStop()
   {
