@@ -1,13 +1,3 @@
-package com.ibm.stax.InitialSetup;
-
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
-import com.ibm.stax.FinalSetup.QCConnection;
-import com.ibm.stax.Reporting.DocTestManager;
-import com.ibm.stax.Reporting.ExtentManager;
-import com.ibm.stax.Reporting.ExtentTestManager;
-import com.ibm.stax.Utilities.Create_TestNGXML;
-import com.ibm.stax.Utilities.Log;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
